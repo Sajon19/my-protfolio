@@ -111,3 +111,18 @@ margin: 130px 0px;
 .about-info{
     text-align: center;
 }
+/* what i do releted styles */
+#what-i-do-description{
+    padding: 30px 150px;
+}
+.skills-container{
+    display: flex;
+}
+.skills{
+    padding: 30px;
+    gap: 24px;
+}
+
+.section-description{
+    padding: 30px;
+}
