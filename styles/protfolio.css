@@ -15,6 +15,20 @@ font-size: 20px;
 font-weight: 700;
 padding: 10px 25px;
 }
+.section-title{
+    color:  #181818;
+text-align: center;
+
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.sectiob-description{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+}
 /* nav releted styles */
 nav{
     display: flex;
@@ -48,8 +62,9 @@ nav a{
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right,top left;
-    height: 512px;
-    width: 1280px;
+    /* height: 512px;
+    width: 1280px; */
+    height: 100vh;
  
 /* flex-shrink: 0; */
 }
@@ -60,7 +75,7 @@ nav a{
     justify-content: space-between;
 }
 .banner-contant{
-    max-width: 500px;
+    width: 500px;
 }
 .banner .profile-pic{
     width: 500px;
@@ -75,4 +90,12 @@ nav a{
 font-weight: 700;
 margin-top: 5px;
 margin-bottom: 20px;
+}
+/* main section styles */
+/* about section styles */
+.about{
+    padding:130px;
+    border-radius: 10px;
+background: #FFF8F3;
+margin: 130px 0px;
 }
