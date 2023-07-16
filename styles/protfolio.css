@@ -28,7 +28,7 @@ body {
     line-height: normal;
 }
 
-.sectiob-description {
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -212,3 +212,34 @@ footer{
 background:white-color, #FFF;
 border: 0px;
 }
+
+@media screen  and (max-width:576px)
+
+{
+    .header{
+        background-image: none;
+    }
+  
+    .banner,
+    .skills-container,
+    .resume-container,
+    .about-info-container,
+    .skills-container,.resume-container,.footer, .nav {
+        flex-direction: column;
+    }
+    .banner .profile-pic{
+        width: 100%;
+    }
+    #what-i-do-description{
+        padding: 10px;
+    }
+    .footer, .about{
+        padding: 10px;
+    }
+    .footer-coloum{
+        width: 100%;
+    }
+    
+}
+
+
